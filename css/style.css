@@ -1,0 +1,98 @@
+/* Nunito Sans Fonts */
+
+.border-bottom {
+  border-bottom: 3px solid #d0cfcf !important;
+}
+
+.font-small {
+  font-size: 12px;
+}
+
+.btn-primary {
+  background-color: #596bfd !important;
+}
+
+.border-primary {
+  border: 1px solid #596bfd !important; 
+}
+
+.list-group-item + .list-group-item {
+  border-top-width: 1px;
+}
+
+.quests-item .item-text .levels-progress.horizontal {
+  margin-right: -13px;
+  display: inline-block;
+  width: calc(100% - 68px);
+  vertical-align: middle;
+  position: relative;
+  background-color: #e3e1e1;
+  font-size: 14px;
+}
+
+.quests-item .item-text .progress-icon {
+  background-color: #e3e1e1;
+}
+
+.main-content {
+  height: 100vh;
+  overflow-y: auto;
+}
+
+.tablet-nav {
+  padding: 3rem 5rem !important;
+  position: relative;
+  z-index: 999;
+  height: 100vh;
+  overflow-y: auto;
+  transition: all 3s ease-in-out;
+}
+
+.fa-times {
+  position: absolute;
+  top: 2rem;
+  right: 2rem;
+  cursor: pointer;
+}
+
+.navbar-toggler {
+  padding: 2px 4px;
+}
+
+.border_bottom {
+  border-bottom: 1px solid #cbcaca;
+}
+
+.img-rotate {
+  transform: rotate(-35deg);
+  margin-right: -2.5rem;
+  margin-bottom: -6rem;
+  overflow: hidden;
+}
+
+.list-group-item {
+  overflow: hidden;
+}
+
+.nav-link span:hover {
+  color: blue !important;
+}
+
+
+.input-group > .form-control:focus {
+  outline-width: 0 !important;
+  box-shadow: none;
+  -moz-box-shadow: none;
+  -webkit-box-shadow: none;
+}
+
+.read-btn {
+  border-bottom: 4px solid #596bfd !important;
+  padding: 10px 20px;
+}
+
+.read-btn:hover {
+  background-color: #596bfd;
+  color: #ffffff !important;
+}
+
