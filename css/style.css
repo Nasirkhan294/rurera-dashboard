@@ -13,7 +13,7 @@
 }
 
 .border-primary {
-  border: 1px solid #596bfd !important; 
+  border: 1px solid #596bfd !important;
 }
 
 .list-group-item + .list-group-item {
@@ -64,10 +64,9 @@
 }
 
 .img-rotate {
-  transform: rotate(-35deg);
+  transform: translateY(62%);
   margin-right: -2.5rem;
-  margin-bottom: -6rem;
-  overflow: hidden;
+  margin-bottom: 0rem;
 }
 
 .book-img {
@@ -81,7 +80,6 @@
 .nav-link span:hover {
   color: blue !important;
 }
-
 
 .input-group > .form-control:focus {
   outline-width: 0 !important;
@@ -100,6 +98,14 @@
   color: #ffffff !important;
 }
 
+@media (min-width: 768px) {
+  .img-rotate {
+    transform: rotate(-25deg);
+    margin-right: -3.9rem;
+    margin-bottom: -8rem;
+    overflow: hidden;
+  }
+}
 
 @media (min-width: 1024px) {
   .book-img {
