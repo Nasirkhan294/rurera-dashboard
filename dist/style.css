@@ -91,11 +91,6 @@ body {
 .nav-link:hover span {
   color: blue !important;
 }
-@media (min-width: 1600px) {
-  .nav-link {
-    padding: 1rem 0;
-  }
-}
 
 .list-group-item + .list-group-item {
   border-top-width: 1px;
@@ -143,6 +138,9 @@ body {
   }
   .font-small {
     font-size: 16px;
+  }
+  .nav-link {
+    padding: 1rem 0;
   }
 }
 

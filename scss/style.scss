@@ -117,11 +117,6 @@ body {
   &:hover span {
     color: blue !important;
   }
-
-
-  @media (min-width: 1600px) {
-    padding: 1rem 0;
-  }
 }
 
 // List group items
@@ -183,5 +178,9 @@ body {
 
   .font-small {
     font-size: $font-size-small;
+  }
+
+  .nav-link {
+    padding: 1rem 0;
   }
 }
