@@ -1,8 +1,5 @@
-/* Nunito and Popppins Fonts */
-@import url("https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
-@import url("https://db.onlinewebfonts.com/c/9d23cda2fd2a195a8467e0967debd4d3?family=Cera+Round+Pro+Bold");
 body {
-  font-family: "Cera Round Pro Bold", serif !important;
+  font-family: "Cera Round Pro Bold", "Arial", sans-serif !important;
 }
 
 .font-small {
@@ -14,7 +11,7 @@ body {
 }
 
 .font-poppins {
-  font-family: "Poppins", serif;
+  font-family: "Poppins", "Helvetica", sans-serif;
   font-weight: 700;
 }
 
@@ -29,7 +26,7 @@ body {
   z-index: 999;
   height: 100vh;
   overflow-y: auto;
-  transition: all 3s ease-in-out;
+  transition: 1s ease-in-out;
 }
 
 .fa-times {
@@ -43,8 +40,8 @@ body {
   padding: 2px 4px;
 }
 
-.border_bottom {
-  border-bottom: 1px solid #cbcaca;
+.border-below {
+  border-bottom: 1px solid #d0cfcf;
 }
 
 .img-rotate {
@@ -60,8 +57,6 @@ body {
 .input-group > .form-control:focus {
   outline-width: 0 !important;
   box-shadow: none;
-  -moz-box-shadow: none;
-  -webkit-box-shadow: none;
 }
 
 .text-secondary {
@@ -93,7 +88,7 @@ body {
   color: #ffffff !important;
 }
 
-.nav-link span:hover {
+.nav-link:hover span {
   color: blue !important;
 }
 @media (min-width: 1600px) {
