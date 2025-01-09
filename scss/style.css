@@ -1,0 +1,145 @@
+body {
+  font-family: "Cera Round Pro Bold", "Arial", sans-serif !important;
+}
+
+.font-small {
+  font-size: 16px;
+}
+
+.font-bold {
+  font-weight: 900;
+}
+
+.font-poppins {
+  font-family: "Poppins", "Helvetica", sans-serif;
+  font-weight: 700;
+}
+
+.main-content {
+  height: 100vh;
+  overflow-y: auto;
+}
+
+.tablet-nav {
+  padding: 3rem 5rem !important;
+  position: relative;
+  z-index: 999;
+  height: 100vh;
+  overflow-y: auto;
+  transition: 1s ease-in-out;
+}
+
+.fa-times {
+  position: absolute;
+  top: 2rem;
+  right: 2rem;
+  cursor: pointer;
+}
+
+.navbar-toggler {
+  padding: 2px 4px;
+}
+
+.border-below {
+  border-bottom: 1px solid #d0cfcf;
+}
+
+.img-rotate {
+  transform: translateY(62%);
+  margin-right: -2.5rem;
+  margin-bottom: 0rem;
+}
+
+.book-img {
+  max-width: 130px;
+}
+
+.input-group > .form-control:focus {
+  outline-width: 0 !important;
+  box-shadow: none;
+}
+
+.text-secondary {
+  color: #444444 !important;
+}
+
+.text-primary {
+  color: #596bfd !important;
+}
+
+.border-bottom {
+  border-bottom: 3px solid #d0cfcf !important;
+}
+
+.border-primary {
+  border: 1px solid #596bfd !important;
+}
+
+.btn-primary {
+  background-color: #596bfd !important;
+}
+
+.read-btn {
+  border-bottom: 4px solid #596bfd !important;
+  padding: 10px 20px;
+}
+.read-btn:hover {
+  background-color: #596bfd;
+  color: #ffffff !important;
+}
+
+.nav-link:hover span {
+  color: blue !important;
+}
+
+.list-group-item + .list-group-item {
+  border-top-width: 1px;
+}
+
+.list-group-item {
+  overflow: hidden;
+}
+
+.quests-item .item-text .levels-progress.horizontal {
+  margin-right: -13px;
+  display: inline-block;
+  width: calc(100% - 68px);
+  vertical-align: middle;
+  position: relative;
+  background-color: #e3e1e1;
+  font-size: 14px;
+}
+.quests-item .item-text .progress-icon {
+  background-color: #e3e1e1;
+}
+
+@media (min-width: 768px) {
+  .img-rotate {
+    transform: rotate(-25deg);
+    margin-right: -3.9rem;
+    margin-bottom: -8rem;
+    overflow: hidden;
+  }
+}
+@media (min-width: 1024px) {
+  .book-img {
+    max-width: 80px;
+  }
+  .font-small {
+    font-size: 12px;
+  }
+}
+@media (min-width: 1600px) {
+  .book-img {
+    max-width: 100px;
+  }
+  .read-btn {
+    padding: 14px 25px;
+  }
+  .font-small {
+    font-size: 16px;
+  }
+  .nav-link {
+    padding: 1rem 0;
+  }
+}/*# sourceMappingURL=style.css.map */
